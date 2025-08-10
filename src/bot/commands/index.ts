@@ -6,7 +6,7 @@ import { accountsCommand } from './accounts';
 export const registerCommands = (bot: Bot) => {
   bot.api.setMyCommands([
     { command: 'help', description: 'Show help' },
-    { command: 'budgets', description: 'Show budget month (default current)' },
+    { command: 'budgets', description: 'Show budget month (default current). Syntax: /budgets [YYYY-MM]' },
     { command: 'accounts', description: 'List accounts' },
   ]);
 
