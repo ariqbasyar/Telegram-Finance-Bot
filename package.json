@@ -13,7 +13,11 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "@actual-app/api": "^25.8.0",
+    "@google/genai": "^1.13.0",
+    "date-fns": "^4.1.0",
     "dotenv": "^17.2.1",
-    "grammy": "^1.37.0"
+    "grammy": "^1.37.0",
+    "pocketbase": "^0.26.2"
   }
 }
